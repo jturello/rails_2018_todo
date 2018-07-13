@@ -30,3 +30,6 @@ coverage/
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore rvm project gemset file
+.ruby-gemset
