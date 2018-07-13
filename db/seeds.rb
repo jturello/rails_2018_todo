@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+ 
+list_names = ["Groceries", "Jon's Wedding", "Mom's Birthday"]
+
+list_names.each do | list_name |
+  List.create(name: list_name)
+end
